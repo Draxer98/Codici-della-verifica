@@ -1,0 +1,40 @@
+VARIAZIONI RISPETTO LA VERIFICA
+
+
+CLASSE MAIN
+
+Modifica Contatto;
+Cancellazione;
+Carica saldo telefonico;
+Salva file;
+Carica file;
+Telefona ----> Modifica perchè ho creato una simulazione invece di una chiamata vera e propria (minutaggio, pulsante di temine, ecc..)
+Fine;
+
+LeggiFile();
+ScriviFile():
+AggiungiSaldo();
+Cancellazione();
+
+
+CLASSE CONTATTO
+
+tipoContatto;
+toString();
+toString2();
+
+
+CLASSE UTILITY
+
+ClrScr();
+Wait();
+menu();
+
+
+EVENTUALI MIGLIORIE
+
+L'aggiunta di un metodo che ordini i contatti.
+La possibilità di visualizzare separatamente le utlime chiamate tra contatti pubblici e privati.
+La possibilità di salvare la password in un file esterno.
+Creare una simulazione più reale di una telefonata.
+La gestione del saldo può essere migliore, per esempio il salvataggio esterno.

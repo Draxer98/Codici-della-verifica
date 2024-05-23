@@ -1,0 +1,55 @@
+ANALISI FUNZIONALE
+
+Analisi: 
+Creare un menù dove sono visibili le funzionalità della rubrica, tra cui:
+- Inserimento;
+- Visualizza Contatti Pubblici;
+- Visualizza Contatti Privati;
+- Ricerca;
+- Modifica Contatto;
+- Cancellazione;
+- Carica saldo telefonico;
+- Telefona;
+- Visualizza Ultime Chiamate;
+- Cambia Password;
+- Salva File;
+- Carica File;
+- Fine;
+
+Nella sezione “INSERIMENTO” faccio inserire un nuovo numero nella rubrica, verificando anche se è già esistente. 
+Chiedo all’utente di inserire il nome, il cognome, il numero di telefono, il tipo di telefono (fisso, cellulare, aziendale).
+
+Nella sezione “VISUALIZZA CONTATTI PUBBLICI” faccio in modo che l’utente visualizzi solo i numeri pubblici,
+in ordine da sinistra a destra: NOME	COGNOME	NUMERO	TIPO	SALDO TELEFONICO.
+
+Nella sezione “VISUALIZZA CONTATTI PRIVATI” faccio in modo che, una volta inserita la password, mostro a schermo i
+contatti privati. In ordine da sinistra a destra: NOME	COGNOME	NUMERO	TIPO	SALDO TELEFONICO.
+
+Nella sezione “RICERCA” faccio in modo che, una volta chiesto all’utente nome e cognome dell’utente, chiedo se vuole
+renderlo privato o no. In caso di “si”, il contatto da pubblico diventa privato, in caso di “no” il contatto resterà
+privato.
+
+Nella sezione “MODIFICA CONTATTO”  faccio in modo che, dopo aver chiesto all’utente di inserire nome e cognome, può
+decidere di modificarne il suo nome, di quello inserito.
+
+Nella sezione “CANCELLAZIONE” faccio in modo che, una volta inserito nome e cognome, cancello nella rubrica quel numero.
+
+Nella sezione “CARICA SALDO TELEFONICO” faccio in modo che, una volta inserito nome e cognome, l’utente possa
+inserire un saldo telefonico.
+
+Nella sezione “TELEFONA” faccio in modo che, una volta chiesto all’utente nome e cognome del contatto,
+parta una simulazione di una telefonata. Dopo viene salvata nella rubrica delle ultime chiamate.
+
+Nella sezione “VISUALIZZA ULTIME CHIAMATE” faccio in modo che visualizzi a schermo le ultime 5
+chiamate effettuate, dalla più recente alla meno (dall’alto verso il basso).
+
+Nella sezione “CAMBIA PASSWORD” faccio in modo che, la prima volta, sia impostata una password (0000)
+e chiedo di cambiarla. Dalla seconda volta in poi, per cambiare password, chiedo all’utente di inserire
+la password attuale. Se sbaglia non gliela fa cambiare. Se è giusta chiederò all’utente di inserire la nuova password.
+
+Nella sezione “SALVA FILE” faccio in modo che salvi la rubrica in un file Excel (sia rubrica pubblica che privata).
+
+Nella sezione “LEGGI FILE” faccio in modo che legga il file Excel e, tutti i dati all’interno,
+vengono salvati nella rubrica.
+
+Nella sezione “FINE” faccio in modo di uscire dalla rubrica.

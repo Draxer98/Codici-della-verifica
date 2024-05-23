@@ -1,0 +1,17 @@
+ANALISI DEI REQUISITI
+
+Scopo: 
+Il programma deve simulare una rubrica telefonica, contenente il nome e cognome dell’utente e il suo numero.
+
+Requisiti: 
+Il programma è diviso in metodi, dove tutti sono privati tranne il main che sarà pubblico. Il main sarà l’unico 
+visibile dall’utente che desidera usarlo.
+
+Strumenti necessari: 
+Una classe “Contatto” dove all'interno ci devono essere rispettivamente: Nome, Cognome, Numero,
+TipoContatto (abitazione, cellulare, aziendale), Saldo e Privato. I metodi toString e toString2
+
+Nella classe Main, ci dovranno essere i rispettivi metodi: main, leggiPersona, visualizza, visualizzaPrivati,
+RicercaIndex, cancellazione, telefona, visualizzzaUltimeChiamate, cambiaPassword, scriviFile, leggiFile, aggiuntaSaldo.
+
+Nella classe utility, ci dovranno essere i rispettivi metodi: CrlSrc, Wait, menu.

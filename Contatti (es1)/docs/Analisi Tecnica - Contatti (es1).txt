@@ -1,0 +1,93 @@
+ANALISI TECNICA
+
+
+CLASSE MAIN:
+
+main():
+all’interno troviamo tutti i metodi richiamati, il menu principale e funziona come metodo principale.
+Questo metodo è l’unico visibile dall’utente.
+
+variabili:
+boolean fine = true;  //Variabile di controllo del ciclo principale.
+boolean Sitel = true;  //Variabile di controllo per la lettura dei dati.
+final int nMax = 3;  //Numero massimo di contatti gestiti.
+int contatoreContatti = 0; //Contatore dei contatti venduti.
+int posizione = 0; //Variabile per tenere traccia della posizione dell'array.
+int contatore Password=0; //Variabile per capire se è la prima volta che modifica la password.
+String password="0000"; //Variabile per gestire la password (0000 è la password generica).
+String passwordVera=password; //Variabile per salvare la password.
+
+switch:
+case 1: Inserimento;
+case 2: Visualizza contatti pubblici
+case 3: Visualizza contatti privati
+case 4: Ricerca
+case 5: Modifica contatto
+case 6: Cancellazione
+case 7 : Carica saldo telefonico
+case 8: Telefona
+case 9: Visualizza ultime chiamate
+case 10: Cambia password
+case 11: Salva file
+case 12: Carica file
+case 13: Fine
+
+
+leggiPersona():
+Serve per l’inserimento dei dati del contatto.
+
+RicercaIndex():
+Serve per la ricerca del contatto. In pratica, una volta inserito nome e cognome,
+va a cercarlo nella rubrica e, una volta trovato, ne ritorna l’indice della posizione.
+Se non trova nessuno, ritorna come posizione -1.
+
+visualizza():
+Serve per visualizzare tutti i contatti pubblici.
+
+visualizzaPrivati():
+Serve per visualizzare tutti i contatti privati.
+
+visualizzaUltimeChiamate():
+Serve per visualizzare le ultime 5 chiamate effettuate.
+
+cancellazione():
+Serve per cancellare un contatto, se trovato, dalla rubrica. Una volta trovato la rubrica
+si ordina per non lasciare spazi vuoti.
+
+aggiuntaSaldo():
+Serve per aggiungere dei soldi al contatto che si è inserito.
+
+telefona():
+Crea una simulazione di una telefonata.
+
+cambiaPassword():
+Serve per cambiare la password. La password serve per visualizzare i contatti privati.
+La prima volta che si modifica basta solo cambiarla. Dalla seconda volta in poi bisogna inserire
+la password attuale e, se giusta, puoi modificarla.
+
+sriviFile():
+Serve per salvare la rubrica in un foglio Excel. Serve per tenere traccia della rubrica nel caso ritorni utile in futuro.
+
+LeggiFile():
+Serve per leggere il file Excel contenente la rubrica salvata con il metodo scriviFile().
+
+
+CLASSE CONTATTO
+
+toString():
+Serve per stampare nome, cognome, telefono, tipo e saldo.
+
+toString2():
+Serve per stampare nome, cognome, telefono.
+
+
+CLASSE UTILITY:
+
+ClrScr():
+Serve per pulire lo schermo del prompt dei comandi.
+
+Wait():
+Serve per creare un timer per abbellire il programma.
+
+menu():
+Serve per stampare tutti gli array di stringhe che sono presenti nel programma.
