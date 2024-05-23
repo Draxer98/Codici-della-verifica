@@ -1,0 +1,16 @@
+ANALISI TECNICA
+
+main(): Il main sarà l'unico visibile dall'utente, infatti è pubblico. All'interno troviamo la verifica dei numeri inseriti
+dall'utente, il richiamo del metodo "Ordinamento" e la stampa dell'array ordinato in base alla consegna.
+
+variabili:
+ int[] numeri = new int[10]; //Array di numeri
+ int lunghezza = numeri.length; //Lunghezza dell'array "numeri"
+ int numero; //intero per assegnare il numero alla cella dell'array
+ boolean verifica; //boolean per verifica
+
+Ordinamento(): Serve per ordinare in base alla consegna e srà privato per l'utente. Ordina i pari in ordine crescente e i dispari non li tocca.
+Anche l'ultimo numero non deve essere toccato, non importa se è pari o dispari. Come metodo di ordinamento viene usato il Selection sort.
+
+variabili:
+int temp; //Variabile temporanea per il funzionamento del metodo di ordinamento selection sort

@@ -1,0 +1,4 @@
+VARIAZIONI RISPETTO LA VERIFICA
+
+Ho aggiunto il controllo delle doppie e sistemato il controllo dei numeri <0 e >30
+Ho aggiunto un -1 nel primo for nel metodo fi ordinamento per farlo funzionare.

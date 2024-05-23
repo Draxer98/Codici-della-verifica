@@ -1,0 +1,10 @@
+ANALISI DEI REQUISITI
+
+scopo:
+Dato un insieme disordinato (della dimensione minima 10 e massima 11 elementi) di numeri interi positivi non ripetuti
+(valore minimo 1, valore massimo 30), occorre poter ordinare, in ordine crescente, i soli numeri PARI, lasciando
+gli eventuali dispari nella loro posizione originaria, lasciando anche l'ultimo valore (pari o dispari non importa)
+nella propria posizione originaria.
+
+requisiti:
+Un metodo main dove sarà quello visibile dall'utente ed un metodo per ordinare i numeri in base alla consegna data.

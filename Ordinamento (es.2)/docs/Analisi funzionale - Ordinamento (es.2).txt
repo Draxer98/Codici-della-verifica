@@ -1,0 +1,8 @@
+ANALISI FUNZIONALE
+
+Analisi:
+Come prima cosa bisogna chiedere all'utente di inserire 10 elementi, però con una condizione. Non devono essere minori di 1 e maggiori di 30.
+Dopo aver verificato ed inserito tutti e dieci i numeri, si andranno ad ordinare in base alla consegna, quindi: I numeri dispari non devono
+essere toccati e devono restare nella loro posizione.
+Mentre i numeri pari devono essere ordinati in ordine crescente. L'ultimo numeri, non importa se pari o dispari, non deve essere toccato.
+Alla fine di tutto si stampano le nuove posizioni dei numeri, quindi con la nuova disposizione in base alla consegna.
